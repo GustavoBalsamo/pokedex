@@ -8,8 +8,8 @@ export const Header = () => {
         <section className={styles.header}>
             <img className={styles.img} src={logo}/>
             <div className={styles.navbar_links}>
-                <a href="#" className={styles.navbar_mark} >Home</a>
-                <a href="#">Pokédex</a>
+                <a href="/" className={styles.navbar_mark} >Home</a>
+                <a href="/pokedex">Pokédex</a>
                 <a href="#">Legendaries</a>
                 <a href="#">Documentation</a>
             </div>
