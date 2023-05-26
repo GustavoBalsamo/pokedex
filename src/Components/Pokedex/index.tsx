@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Header } from '../Header';
 import styles from './index.module.css';
-import { Menu, MenuButton, MenuList, Button, SimpleGrid, CircularProgress, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, MenuItem, Checkbox, Progress, Badge } from '@chakra-ui/react';
+import { Menu, MenuButton, MenuList, Button, SimpleGrid, CircularProgress, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, MenuItem, Checkbox, Progress } from '@chakra-ui/react';
 import api from '../../api/api';
 
 import { ChevronDownIcon } from '@chakra-ui/icons';
