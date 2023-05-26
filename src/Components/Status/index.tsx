@@ -19,6 +19,7 @@ export const Status = ({ type }: StatusProps) => {
     <div className={styles.statusName}>
         {type}
     </div>
+    
         </div>
     )
 

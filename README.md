@@ -1,1 +1,0 @@
-Olá, esse é um projeto feito com react, consumindo a api da pokedex!
