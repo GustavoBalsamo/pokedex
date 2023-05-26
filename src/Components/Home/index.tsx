@@ -12,7 +12,7 @@ export const Home = () => {
                 <div className={styles.description}>
                     <h1 className={styles.title}><strong>Find</strong> all your favorite <strong>Pokemon</strong></h1>
                     <h2 className={styles.information}>You can know the type of Pokemon, its strengths, disadvantages and abilities</h2>
-                    <button className={styles.button}>See pokemons</button>
+                    <button  className={styles.button}><a href="/pokedex">See pokemons</a></button>
                 </div>
                 <img className={styles.image} src={pikachu}/>
             </section>
