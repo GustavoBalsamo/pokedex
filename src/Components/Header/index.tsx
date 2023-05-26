@@ -11,7 +11,7 @@ export const Header = () => {
                 <a href="/" className={styles.navbar_mark} >Home</a>
                 <a href="/pokedex">Pokédex</a>
                 <a href="#">Legendaries</a>
-                <a href="#">Documentation</a>
+                <a target="_blank" href="https://pokeapi.co">Documentation</a>
             </div>
             <div className={styles.hamburger}>
                 <Menu>
@@ -19,13 +19,13 @@ export const Header = () => {
                         <img src={hamburger} />
                     </MenuButton>
                     <MenuList>
-                        <MenuItem ><a href="#"><div>Home</div></a>
+                        <MenuItem ><a href="/"><div>Home</div></a>
                         </MenuItem>
-                        <MenuItem ><a href="#"><div>Pokedéx</div></a>
+                        <MenuItem ><a href="/pokedex"><div>Pokedéx</div></a>
                         </MenuItem>
                         <MenuItem ><a href="#"><div>Legendaries</div></a>
                         </MenuItem>
-                        <MenuItem ><a href="#"><div>Documentation</div></a>
+                        <MenuItem ><a target="_blank" href="https://pokeapi.co"><div>Documentation</div></a>
                         </MenuItem>
                     </MenuList>
                 </Menu>
